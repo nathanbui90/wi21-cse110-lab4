@@ -51,5 +51,5 @@ Part 1 Questions:
 
 16. The "==" operator compares only the values of two operands or variables. As long as the values of what is being compared is the same then the "==" operator will return true even if the types are different. However, for "===", both the values and types of what is being compared is checked. For example, 0 == false will be true because they both have the value of 0. However, 0 === false will return false because they are different types.
 
-17. 'How are you?' gets printed. For the first condition for the if statement, 2 == true will return false because the value of true is 1 and 1 is not the same value as 2.  
+17. 'How are you?' gets printed. For the first condition for the if statement, 2 == true will return false because the value of true is 1 and 1 is not the same value as 2. For the else if condition statement, there is a 2 and that will be converted to a boolean value. Positive numbers converted to a boolean value will be true so the contents of the else if will be executed. Since the else if condition statement was true then we skip the else statement and its contents that follow the else if statement.    
     
