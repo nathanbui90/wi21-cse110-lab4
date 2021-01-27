@@ -54,3 +54,8 @@ Part 1 Questions:
 17. 'How are you?' gets printed. For the first condition for the if statement, 2 == true will return false because the value of true is 1 and 1 is not the same value as 2. For the else if condition statement, there is a 2 and that will be converted to a boolean value. Positive numbers converted to a boolean value will be true so the contents of the else if will be executed. Since the else if condition statement was true then we skip the else statement and its contents that follow the else if statement.    
     
 19. The result of modifyArray([1,2,3], doSomething) is an array of the same length, but add two to each element and then multiply it by 2. So, the resulting array is [6,8,10]. We see that the for loop loops through its contents for array.length amount of times. Within the for loop, we notice that the result from the callback is being pushed into newArr. The callback is doSomething and for each iteration of the for loop the first argument of the callback will be an element within array. The second argument of the callback will be another callback to a function that multiplies its argument by 2 and returns it. When the first callback is called, we enter the doSomething function and call the callback within doSomething. Two is added to num and then the callback multiplies the sum by 2 and then doSomething returns that value. Within modifyArray, the value returned from doSomething is pushed onto the newArr. This happens for every single element in array starting from index 0. After the for loop is done, the newArr is returned.
+
+21. 1
+    4
+    3
+    2
